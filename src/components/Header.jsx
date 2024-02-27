@@ -68,7 +68,8 @@ function Header() {
           <ProfessionalCard />
         </div>
 
-        <h1 className="text-2xl self-start">
+        
+        <h1 className="text-2xl self-start my-4">
           Related Deals you might like for
         </h1>
         <div>

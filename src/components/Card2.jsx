@@ -49,7 +49,7 @@ const Gift = () => {
             {gifts.map((gift, index) => (
               <div
                 key={index}
-                className="flex flex-col items-stretch rounded-2xl shadow-xl overflow-hidden p-4 bg-gray-100 text-gray-600 max-w-sm "
+                className="flex flex-col items-stretch rounded-2xl shadow-xl overflow-hidden p-4 text-gray-600 max-w-sm "
               >
                 <div className="product flex flex-col">
                   <img
@@ -90,7 +90,7 @@ const Gift = () => {
                    
                   </div>
                 </div>
-                <button className="w-full my-4 bg-blue-700 p-4 rounded-lg text-white">Buy Now</button>
+                <button className="w-full my-4 bg-blue-500 p-4 rounded-lg text-white">Buy Now</button>
               </div>
               
             ))}
