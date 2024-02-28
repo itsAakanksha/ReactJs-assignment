@@ -20,15 +20,17 @@ function Footer() {
     {/* Contact Column */}
     <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-4">
       <h3 className="text-lg font-semibold mb-4">Contact</h3>
-      <p>Email: contact@example.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <p>Contact</p>
+     <p>Privacy policy</p>
+     <p>Terms of service</p>
+     <p>Categories</p>
+     <p>About</p>
     </div>
 
     {/* Address Column */}
     <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-4">
-      <h3 className="text-lg font-semibold mb-4">Address</h3>
-      <p>123 Street, City</p>
-      <p>Country, ZIP Code</p>
+      <p>United States  <i className="fa fa-chevron-down text-gray-400 px-2"></i></p>
+     
     </div>
   </div>
 </div>

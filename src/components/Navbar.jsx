@@ -14,7 +14,7 @@ function Navbar() {
       <div className="w-full p-3">       
         <div className="relative">
           <i className="absolute fa fa-search text-gray-400 top-3 left-2"></i>
-          <input type="text" className="bg-white h-10 w-full px-8 rounded-lg focus:outline-none hover:cursor-pointer" name=""/>
+          <input type="text" className="bg-white h-10 w-full px-8 rounded-lg focus:outline-none " name=""/>
         </div>   
       </div>
       </div>

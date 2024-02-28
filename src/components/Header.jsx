@@ -24,7 +24,7 @@ function Header() {
           <i className="fa fa-chevron-down text-gray-400 px-2"></i>
         </div>
       </div>
- <div className="my-2 flex flex-wrap gap-4 text-xs text-gray-600">
+      <div className="my-2 flex flex-wrap gap-12 justify-evenly text-xs text-gray-600 mr-auto ">
           <div>Tools</div>
           <div>AWS Builders</div>
           <div>Start Build</div>
@@ -61,6 +61,7 @@ function Header() {
           </div>
         </div>
 
+
         <div className="first-card ">
           <ProfessionalCard />
           <ProfessionalCard />
@@ -69,7 +70,7 @@ function Header() {
         </div>
 
         
-        <h1 className="text-2xl self-start my-4">
+        <h1 className="md:text-3xl text-2xl self-start mt-12">
           Related Deals you might like for
         </h1>
         <div>
@@ -82,7 +83,7 @@ function Header() {
           </div>
           <div className=" text-white md:w-1/2 flex justify-between h-[50px] ">
             <input type="text" className="text-black w-full" />
-            <span className="bg-blue-500 ml-auto rounded-r-lg  py-4 px-4 text-center">
+            <span className="bg-[#1B88F4] ml-auto rounded-r-lg  py-4 px-4 text-center">
               Signup
             </span>
           </div>
